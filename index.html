@@ -29,9 +29,16 @@
         OOOOOLLASDAFASDFASFA1231231 2asdasd saas d asdasdsad HAHAHAHAHA
       </p>
     </header>
-    <form id="login-form">
-      <input type="text" placeholder="Email or phone number" />
-      <input type="password" placeholder="Password" />
+    <!-- action 은 어떤 페이지로 data를 보낼지 지정 -->
+    <!-- method 은 post 와 get. post 는 백엔드 -->
+    <!-- get은 url 에 포함되어도 상관없는 정보들 -->
+    <form action="friends.html" method="get" id="login-form">
+      <input
+        name="username"
+        required="text"
+        placeholder="Email or phone number"
+      />
+      <input name="password" required="password" placeholder="Password" />
       <input type="submit" value="Log in" />
       <input type="submit" value="Sign Up" />
       <a href="#">Find kokoa accoount or Password</a>
