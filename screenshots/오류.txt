@@ -1,0 +1,34 @@
+    <main class="friends-screen">
+      <div class="user-component">
+        <div class="user-component__column">
+          <img
+            src="screenshots/scratch.png"
+            class="user-component__avatar user-component__avatar__xl"
+          />
+          <div class="user-component__text">
+            <h4 class="user-component__title">scratch</h4>
+            <!-- <h6 class="user-component__subtitle">hello</h6> -->
+          </div>
+        </div>
+        <div class="user-component__Channel">
+          <div class="user-component__Channel__">
+            <span>Channel</span><i class="fas fa-chevron-up"></i>
+          </div>
+        <div class="user-component">
+          <div class="user-component__column">
+          <img
+            src="screenshots/scratch.png"
+            class="user-component__avatar user-component__avatar__sm"
+          />
+          <div class="user-component__text">
+            <h4 class="user-component__title user-component__title__not-bold">
+              scratch
+            </h4>
+          </div>
+        </div>
+          <div class="user-component__column">
+            <span>2</span><i class="fas fa-chevron-right"></i>
+          </div>
+        </div>
+      </div>
+    </main>

@@ -1,0 +1,28 @@
+.friends-till-the-end {
+  display: block;
+  text-align: center;
+  background-color: rgba(88, 88, 88, 0.06);
+  margin-top: 120px;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-bottom: 10px;
+  padding: 20px 0px;
+  font-size: 16px;
+}
+.friends-till-the-end i {
+  color: rgba(0, 0, 0, 0.3);
+}
+.friends-screen {
+  padding: 0px 25px;
+}
+.friends-screen__channel {
+  margin: 20px 0px;
+  border-top: 1px solid rgba(88, 88, 88, 0.5);
+  padding-top: 15px;
+}
+.friends-screen__channel-header {
+  margin-bottom: 30px;
+  display: flex;
+  justify-content: space-between;
+  color: rgba(0, 0, 0, 0.8);
+}
