@@ -8,16 +8,19 @@
   align-items: center;
 }
 
-/* .user-component__Channel {
+.user-component__channel {
   padding: 20px 20px;
   display: flex;
   margin: 20px 25px;
   border-top: 1px solid rgba(121, 121, 121, 0.25);
   justify-content: space-between;
-} */
+}
 .user-component__title {
   font-weight: 600;
   font-size: 21px;
+}
+.user-component__subtitle {
+  margin-top: 5px;
 }
 .user-component__avatar {
   border: 1.5px solid rgba(34, 34, 34, 0.4);
