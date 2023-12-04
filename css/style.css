@@ -9,6 +9,7 @@
 @import "components/screen-header.css";
 @import "screens/friends.css";
 @import "components/user-components.css";
+@import "components/badge.css";
 body {
   font-family: "Noto Sans", sans-serif;
   color: #2e363e;

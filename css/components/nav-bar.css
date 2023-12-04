@@ -16,16 +16,6 @@
   justify-content: space-between;
 }
 .nav__notification {
-  background-color: rgb(255, 79, 79);
-  width: 20px;
-  height: 20px;
-  display: block;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  border-radius: 50%;
-  color: white;
-  font-weight: 600;
   position: absolute;
   right: 19px;
   bottom: 21px;

@@ -30,6 +30,13 @@
   margin-right: 20px;
   object-fit: cover;
 }
+/* .user-component__badge {
+  margin-left: 20px;
+} */
+.user-component__time {
+  display: block;
+  margin-bottom: 10px;
+}
 .user-component__avatar--xl {
   width: 80px;
   height: 80px;
@@ -42,7 +49,9 @@
   font-weight: 400;
 }
 
-.user-component__column_last {
-  margin-top: 27.5px;
+.user-component__column:last-child {
   color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
 }
