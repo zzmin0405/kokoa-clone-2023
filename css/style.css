@@ -10,6 +10,7 @@
 @import "screens/friends.css";
 @import "components/user-components.css";
 @import "components/badge.css";
+@import "screens/find.css";
 body {
   font-family: "Noto Sans", sans-serif;
   color: #2e363e;
