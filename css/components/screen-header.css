@@ -16,4 +16,5 @@
 }
 .screen-title__icons span {
   margin-left: 40px;
+  position: relative;
 }

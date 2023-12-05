@@ -93,10 +93,12 @@
   position: absolute;
   bottom: 5px;
   right: 5px;
+  font-size: 12px;
 }
 .something__main__heart__count span {
   margin-left: 4px;
 }
-.asd {
+.divider {
+  margin: 25px 0px;
   border-bottom: 1px solid rgba(0, 0, 0, 0.2);
 }

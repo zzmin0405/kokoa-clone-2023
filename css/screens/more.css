@@ -1,0 +1,29 @@
+.more__icons {
+  display: flex;
+  justify-content: space-between;
+  margin: 20px 0px;
+}
+.more__ss__icons {
+  font-size: 45px;
+}
+.more__ss__suggestions__title {
+  margin-bottom: 25px;
+  font-weight: 600;
+}
+.more__ss__suggestions__icon__img {
+  size: 20px;
+}
+.more__ss__suggestions__icons {
+  display: flex;
+}
+.more__ss__suggestions__icon {
+  margin-right: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.more__ss__suggestions__icon__img {
+  margin-bottom: 5px;
+  width: 60px;
+  height: 60px;
+}
