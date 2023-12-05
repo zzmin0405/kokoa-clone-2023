@@ -1,7 +1,6 @@
 .find__icons {
   display: flex;
   justify-content: space-between;
-  border-bottom: 2px soild rgba(0, 0, 0, 0.5);
 }
 .find__icons__icon {
   display: flex;
@@ -13,4 +12,91 @@
 }
 .find__icons__icon span {
   margin-top: 15px;
+}
+.find__recommended {
+  margin: 25px 0px;
+  padding: 25px 0px;
+  border-top: var(--main-border);
+  border-bottom: var(--main-border);
+}
+.find__recommended__title {
+  font-size: 14px;
+  color: rgba(0, 0, 0, 0.6);
+}
+.find__recommended span {
+  display: block;
+  margin: 100px 0px;
+  text-align: center;
+}
+.open__chat__header {
+  display: flex;
+  justify-content: space-between;
+}
+.open__chat__title {
+  color: rgba(0, 0, 0, 0.6);
+}
+.something__ {
+  display: flex;
+  margin: 20px 0px;
+  justify-content: space-between;
+  align-items: center;
+  /*    justify-content: space-between;
+  align-items: center; 이 두개는 아주 자주쓰는 조합*/
+}
+.something__image {
+  width: 20px;
+  height: 20px;
+  border-radius: 20%;
+  margin-right: 8px;
+}
+.something__main__title {
+  font-weight: 600;
+  margin-bottom: 5px;
+}
+.something__main__hashtags {
+  margin: 10px 0px;
+  text-transform: uppercase;
+}
+.something__main__members {
+  margin: 7px 0px;
+  display: flex;
+  align-items: center;
+}
+.something__main__members__count {
+  opacity: 0.7;
+}
+.something__main__members .divider {
+  margin: 0px 7px;
+  width: 2px;
+  height: 15px;
+  background-color: rgb(0, 0, 0, 0.3);
+}
+.something__main__members__status {
+  color: violet;
+}
+.something__main__image {
+  position: relative;
+}
+.something__main__image img {
+  border-radius: 20px;
+  border: 1.5px solid rgba(34, 34, 34, 0.4);
+  width: 100px;
+  height: 100px;
+}
+.something__main__heart__count {
+  color: white;
+  background-color: rgba(34, 34, 34, 0.7);
+  padding: 5px;
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  position: absolute;
+  bottom: 5px;
+  right: 5px;
+}
+.something__main__heart__count span {
+  margin-left: 4px;
+}
+.asd {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
 }
