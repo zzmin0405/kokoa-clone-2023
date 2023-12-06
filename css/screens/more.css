@@ -1,7 +1,9 @@
 .more__icons {
   display: flex;
   justify-content: space-between;
-  margin: 20px 0px;
+  margin-top: 20px;
+  margin-left: auto;
+  margin-right: auto;
 }
 .more__ss__icons {
   font-size: 45px;

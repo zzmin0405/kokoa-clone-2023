@@ -12,10 +12,17 @@
 @import "components/badge.css";
 @import "screens/find.css";
 @import "screens/more.css";
+@import "screens/settings.css";
+@import "screens/chat.css";
+
 body {
   font-family: "Noto Sans", sans-serif;
   color: #2e363e;
 }
 .main-screen {
   padding: 0px var(--horizontal-space);
+}
+.divider {
+  margin: 25px 0px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
 }
