@@ -1,5 +1,4 @@
 .alt-header {
-  margin-bottom: 15px;
   display: flex;
   padding: 10px 35px;
   align-items: center;
@@ -9,11 +8,19 @@
   font-size: 32px;
   font-weight: 600;
 }
+.alt-header__column {
+  width: 33%;
+}
 .alt-header__column:first-child {
   margin-right: auto;
 }
+.alt-header__column:nth-child(2) {
+  text-align: center;
+}
 .alt-header__column:last-child {
   margin-left: auto;
+  display: flex;
+  justify-content: flex-end;
 }
 .settings__setting {
   padding: 20px 0px;
@@ -28,4 +35,7 @@
 }
 .settings__setting__column_last {
   opacity: 0.5;
+}
+.alt-header__column span:last-child {
+  margin-left: 25px;
 }
