@@ -36,7 +36,41 @@
     </header>
     <main class="main-screen main-chat">
       <div class="chat__timestamp">Friday, December 07, 2023</div>
+      <div class="chat__chat">
+        <div class="chat__chat__column"></div>
+      </div>
+      <div class="message-row">
+        <img src="screenshots/scratch.png" />
+        <div class="meesage-row__content">
+          <span class="message__author">Scratch</span>
+          <div class="message__info">
+            <span class="message__bubble">Hello, World!</span>
+            <span class="message__time">22:22</span>
+          </div>
+        </div>
+      </div>
+      <div class="message-row message-row-own">
+        <div class="meesage-row__content">
+          <div class="message__info">
+            <span class="message__bubble">Hello, World!</span>
+            <span class="message__time">22:22</span>
+          </div>
+        </div>
+      </div>
     </main>
+    <form class="reply">
+      <div class="reply__column">
+        <i class="far fa-plus-square fa-lg"></i>
+      </div>
+      <div class="reply__column">
+        <input type="text" placeholder="Write a message" /><i
+          class="far fa-grin-tongue fa-lg"
+        ></i>
+        <button>
+          <i class="fas fa-arrow-circle-up"></i>
+        </button>
+      </div>
+    </form>
     <script
       src="https://kit.fontawesome.com/3597ac2227.js"
       crossorigin="anonymous"
