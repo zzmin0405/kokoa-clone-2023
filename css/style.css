@@ -14,7 +14,7 @@
 @import "screens/more.css";
 @import "screens/settings.css";
 @import "screens/chat.css";
-
+@import "components/no-mobile.css";
 body {
   font-family: "Noto Sans", sans-serif;
   color: #2e363e;

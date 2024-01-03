@@ -157,5 +157,5 @@
 .reply .fa-grin-tongue,
 .reply button,
 .reply .reply__column:first-child {
-  transition: opacity 0.3s ease-in-out;
+  transition: opacity 0.3 s ease-in-out;
 }
